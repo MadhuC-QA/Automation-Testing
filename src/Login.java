@@ -18,7 +18,9 @@ public class Login {
 		driver.findElement(By.xpath("//*[@id=\"nav-search-submit-button\"]")).click();
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
 		jse.executeScript("window.scrollBy(0,500)");
-		jse.executeScript("window.scrollBy(0,600)");
+		jse.executeScript("window.scrollBy(0,700)");
+		
+		
 	
 		
 		
