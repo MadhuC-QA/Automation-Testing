@@ -47,7 +47,7 @@ public class Login {
 
 	//jse.executeScript("window.scrollBy(0,500)");
 	driver.findElement(By.xpath("//div[@class='a-section a-spacing-none a-padding-none']//input[@id='add-to-cart-button']")).click();
-	
+	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@aria-labelledby='attach-sidesheet-view-cart-button-announce']")));
 	driver.findElement(By.xpath("//input[@aria-labelledby='attach-sidesheet-view-cart-button-announce']")).click();
 		
 		
