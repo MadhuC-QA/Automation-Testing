@@ -19,7 +19,7 @@ public class Login {
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
 		jse.executeScript("window.scrollBy(0,500)");
 		jse.executeScript("window.scrollBy(0,700)");
-		
+		jse.executeScript("window.scrollBy(0,700)");
 		
 	
 		
