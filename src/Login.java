@@ -38,12 +38,17 @@ public class Login {
 	
 	String parentId=it.next();
 	String childId=it.next();
-	driver.switchTo().frame(1);
+	driver.switchTo().window(childId);
 	
 	
+	System.out.println(parentId);
+	System.out.println(childId);
 	
-	jse.executeScript("window.scrollBy(0,500)");
-		driver.findElement(By.xpath("//div[@id='addToCart_feature_div']")).click();
+
+	//jse.executeScript("window.scrollBy(0,500)");
+	driver.findElement(By.xpath("//div[@class='a-section a-spacing-none a-padding-none']//input[@id='add-to-cart-button']")).click();
+	
+	driver.findElement(By.xpath("//input[@aria-labelledby='attach-sidesheet-view-cart-button-announce']")).click();
 		
 		
 	
