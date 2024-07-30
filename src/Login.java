@@ -18,8 +18,9 @@ public class Login {
 		driver.findElement(By.xpath("//*[@id=\"nav-search-submit-button\"]")).click();
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
 		jse.executeScript("window.scrollBy(0,500)");
-		jse.executeScript("window.scrollBy(0,700)");
-		jse.executeScript("window.scrollBy(0,700)");
+		driver.findElement(By.linkText("Redmi Note 13 Pro (Midnight Black, 8GB RAM, 128GB Storage) | 1.5K AMOLED | 200MP Hi-Res Camera | Flagship 4nm SD 7s Gen 2 | 67W TurboCharge")).click();
+		
+		
 		
 	
 		
