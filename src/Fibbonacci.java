@@ -2,7 +2,7 @@
 public class Fibbonacci {
 
 	public static void main(String[] args) {
-		int n1=0,n2=1,count=0,n3=0;
+		int n1=0,n2=1,count=10,n3=0;
 		 if(count<=2)
 			 System.out.println(n1+""+n2);
 		 else
