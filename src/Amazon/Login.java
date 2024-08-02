@@ -66,6 +66,7 @@ public class Login {
 		driver.quit();
 		
 		driver.getCurrentUrl();
+		driver.getCurrentUrl();
 	}
 
 }
