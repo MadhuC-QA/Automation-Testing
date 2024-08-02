@@ -63,9 +63,9 @@ public class Login {
 		// The method moveToElement(WebElement) in the type Actions is not applicable
 		// for the arguments (By)
 		driver.findElement(By.id("nav-logo-sprites")).click();
-		driver.close();
 		driver.quit();
-
+		
+		driver.getCurrentUrl();
 	}
 
 }
