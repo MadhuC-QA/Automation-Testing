@@ -17,6 +17,7 @@ public class Text_split {
 		System.out.println(alpha);
 		System.out.println(num);
 		System.out.println(special);
+		
 
 	}
 
