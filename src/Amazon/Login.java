@@ -22,7 +22,7 @@ public class Login {
 		WebDriver driver = new EdgeDriver();
 		driver.get("https://www.amazon.in/");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
 		// driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Mobiles");
@@ -38,7 +38,7 @@ public class Login {
 				.click();
 		// driver.findElement(By.xpath("//div[@class='a-section a-spacing-none
 		// a-padding-none']//input[@id='add-to-cart-button']")).click();
-		//// input[@aria-labelledby='attach-sidesheet-checkout-button-announce']
+		// input[@aria-labelledby='attach-sidesheet-checkout-button-announce']
 
 		// wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@aria-labelledby='attach-sidesheet-checkout-button-announce'")));
 		Set<String> windows = driver.getWindowHandles();
@@ -63,7 +63,7 @@ public class Login {
 		// The method moveToElement(WebElement) in the type Actions is not applicable
 		// for the arguments (By)
 		driver.findElement(By.id("nav-logo-sprites")).click();
-
+		driver.close();
 		driver.quit();
 
 	}
