@@ -55,9 +55,7 @@ public class Login {
 		wait.until(ExpectedConditions.elementToBeClickable(
 				By.xpath("//input[@aria-labelledby='attach-sidesheet-view-cart-button-announce']")));
 		driver.findElement(By.xpath("//input[@aria-labelledby='attach-sidesheet-view-cart-button-announce']")).click();
-
-		Actions a = new Actions(driver);
-
+       Actions a = new Actions(driver);
 		a.moveToElement(driver.findElement(By.xpath("//a[@id='nav-link-accountList']"))).build().perform();
 
 		// The method moveToElement(WebElement) in the type Actions is not applicable
