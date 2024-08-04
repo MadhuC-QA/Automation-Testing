@@ -16,6 +16,7 @@ public class Pallindrome {
 		else
 		{
 			System.out.println("String is not pallindrome");
+			
 		}
 	}
 
