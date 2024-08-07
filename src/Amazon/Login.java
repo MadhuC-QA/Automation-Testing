@@ -63,6 +63,7 @@ public class Login {
 		driver.findElement(By.id("nav-logo-sprites")).click();
 		driver.findElement(By.id("nav-logo-sprites")).click();
 		driver.quit();
+		driver.close();
 		
 	}
 
