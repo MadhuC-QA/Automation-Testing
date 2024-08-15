@@ -11,8 +11,7 @@ public class duplicate {
 		if (carray[i] == carray[j]) {
 		System.out.print(carray[j] + "");
 		break;
-		
-		}
+				}
 		}
 		}
 		}
