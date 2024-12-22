@@ -6,10 +6,10 @@ public class max {
 		
 		//input Testing output: seTting
 		
-		String name="Testing" ,con="";
-		 con=con+name.charAt(2)+name.charAt(1)+name.charAt(0)+name.charAt(3)+name.charAt(4)+name.charAt(5)+name.charAt(6);
-		 System.out.println(con);
-		 System.out.println(con);
+		String name="Testing one" ,con="";
+		name =name.replaceAll("\\s", "");
+		System.out.println(name);
+		 
 		
 		
 		
