@@ -9,6 +9,7 @@ public class count_words {
 		System.out.println(one);
 		System.out.println(one);		
 		char[] arr=one.toCharArray();
+   //System.out.println(one.trim());
 		for(int i=0;i<arr.length;i++)
 		{
 			int C=1;
