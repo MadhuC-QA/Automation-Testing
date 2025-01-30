@@ -1,4 +1,4 @@
-package newone;
+
 
 public class max {
 

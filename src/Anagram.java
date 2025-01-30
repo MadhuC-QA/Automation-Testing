@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Anagram {
 
@@ -39,6 +41,12 @@ public class Anagram {
 	
 	String s="";
 	System.out.println(s.length());
+	
+	String a[]= {};
+	System.out.println(a.length);
+	List<Integer> b= new ArrayList<>();
+	//List<Integer> commonElements = new ArrayList<>(); 
+	System.out.println(b.size());
 	}
 
 }

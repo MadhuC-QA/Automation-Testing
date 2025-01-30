@@ -17,6 +17,15 @@ public class distinct_chars {
 		        }
 		        
 		        System.out.println(distinctChars);
+		       String one= distinctChars.toString();
+		        System.out.println(one);
+		        
+		        
+		        String name="aaabbbbcccc";
+		        for(int i=0;i<name.length();i++)
+		        {
+		        	//if(distinctchars(i)==name.charAt(i);
+		        }
 		    
 		
 	}
