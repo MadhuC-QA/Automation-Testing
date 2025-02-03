@@ -1,3 +1,4 @@
+package Java_Programs;
 
 public class Garbage_Collector {
 	

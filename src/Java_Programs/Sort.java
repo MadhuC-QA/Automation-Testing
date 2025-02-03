@@ -1,3 +1,4 @@
+package Java_Programs;
 import java.util.Arrays;
 
 public class Sort {
@@ -16,9 +17,7 @@ public class Sort {
 				max=arr[i];
 			}
 		}
-		System.out.println(max);
-		Arrays.sort(arr);
-		System.out.println("Largest = "+ arr[arr.length-1]);
+		
 	}
 
-}
+

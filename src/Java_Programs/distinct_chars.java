@@ -1,3 +1,4 @@
+package Java_Programs;
 import java.util.HashSet;
 import java.util.Set;
 public class distinct_chars {

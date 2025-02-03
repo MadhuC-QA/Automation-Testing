@@ -1,3 +1,4 @@
+package Java_Programs;
 import java.util.Scanner;
 public class Prime
 {
