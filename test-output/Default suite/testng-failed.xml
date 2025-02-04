@@ -5,6 +5,7 @@
     <classes>
       <class name="TestNG.Testng_ex">
         <methods>
+          <include name="before_class"/>
           <include name="Login"/>
         </methods>
       </class> <!-- TestNG.Testng_ex -->

@@ -1,6 +1,7 @@
 package TestNG;
 
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class Testng_ex {
@@ -16,5 +17,10 @@ public class Testng_ex {
 public void Login1()
 {
 System.out.println("Test2 executed");
+}
+@BeforeClass
+public void before_class()
+{
+	System.out.println("Before class");
 }
 }
