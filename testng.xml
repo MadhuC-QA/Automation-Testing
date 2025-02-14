@@ -3,7 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="TestNG.Testng_ex"/>
+      <class name="RestAssured.Sample"/>
+      <class name="RestAssured.Http_Requests"/>
+     <class name="TestNG.Testng_ex"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

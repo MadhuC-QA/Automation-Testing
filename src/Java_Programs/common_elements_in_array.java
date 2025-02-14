@@ -6,8 +6,8 @@ import java.util.List;
 public class common_elements_in_array {
 
 	public static void main(String[] args) {
-		Integer[] array1 = { 4, 2, 3, 1, 6 }; 
-		Integer[] array2 = { 6, 7, 8, 4 ,1}; 
+		Integer[] array1 = { 4, 2, 3, 1, 6 ,4}; 
+		Integer[] array2 = { 6, 7, 8, 4 ,1,2,2}; 
 		List<Integer> commonElements = new ArrayList<>(); 
 		for (int i = 0; i < array1.length; i++) { 
 		for (int j = 0; j < array2.length; j++) { 

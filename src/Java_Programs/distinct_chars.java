@@ -1,5 +1,6 @@
 package Java_Programs;
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Set;
 public class distinct_chars {
 
@@ -7,18 +8,16 @@ public class distinct_chars {
 // TODO Auto-generated method stub
 
 	
-		
-
-	
 		        String input = "aaaabbbb";
-		        Set<Character> distinctChars = new HashSet<>();
+		        Set<Character> distinctChars = new LinkedHashSet<>();
 		        
-		        for (char c : input.toCharArray()) {
+		        char[] c1=input.toCharArray();
+		        for (char c : c1) {
 		            distinctChars.add(c);
 		        }
 		        
 		        System.out.println(distinctChars);
-		       String one= distinctChars.toString();
+		        String one= distinctChars.toString();
 		        System.out.println(one);
 		        
 		        
